@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "owid-analysis"
+version = "0.1.0"
+description = "Packages for OWID Data Analysis"
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "owid_analysis"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+owid-catalog = "^0.3.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
